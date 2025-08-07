@@ -8,7 +8,6 @@ import { useWindowSize } from "@/hooks/use-window-size";
 import {
   Sheet,
   SheetContent,
-  SheetDescription,
   SheetHeader,
   SheetTitle,
   SheetTrigger,
@@ -48,7 +47,7 @@ function Map() {
         <SheetHeader className="hidden">
           <SheetTitle className="PoppinBold text-xl">Map</SheetTitle>
         </SheetHeader>
-        <div className="flex justify-start items-center flex-col w-full h-full overflow-y-scroll overflow-x-hidden">
+        <div className="flex justify-start items-center flex-col w-full h-[60vh] md:h-full overflow-y-scroll overflow-x-hidden">
           <iframe
             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d58665.83692730565!2d72.60434840577949!3d23.220704332824898!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x395c2b987c6d6809%3A0xf86f06a7873e0391!2sGandhinagar%2C%20Gujarat!5e0!3m2!1sen!2sin!4v1747995145474!5m2!1sen!2sin"
             width="100%"

@@ -9,7 +9,6 @@ import { useWindowSize } from "@/hooks/use-window-size";
 import {
   Sheet,
   SheetContent,
-  SheetDescription,
   SheetHeader,
   SheetTitle,
   SheetTrigger,

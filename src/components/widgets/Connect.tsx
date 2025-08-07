@@ -9,7 +9,6 @@ import { useWindowSize } from "@/hooks/use-window-size";
 import {
   Sheet,
   SheetContent,
-  SheetDescription,
   SheetHeader,
   SheetTitle,
   SheetTrigger,
@@ -185,7 +184,7 @@ function Connect() {
         <SheetHeader>
           <SheetTitle className="PoppinBold text-xl">Connect</SheetTitle>
         </SheetHeader>
-        <div className="flex justify-start items-center flex-col w-full h-full overflow-y-scroll overflow-x-hidden">
+        <div className="flex justify-start items-center flex-col w-full h-[60vh] md:h-full overflow-y-scroll overflow-x-hidden">
           {connectOptions.map(({ id, icon, alt, title, value, url }) => (
             <div
               key={id}

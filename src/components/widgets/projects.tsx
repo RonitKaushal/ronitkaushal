@@ -5,7 +5,7 @@ import Image from "next/image";
 function Projects() {
   return (
     <div className="group relative flex justify-end items-end border-8 border-background dark:border-primary/10 bg-primary/3 shadow-2xl w-full h-full pt-30 rounded-4xl overflow-hidden">
-      <div className="flex justify-start items-end w-full h-full min-h-72 pb-5 overflow-x-scroll group-hover:gap-2 gap-0 transition-all duration-300">
+      <div className="flex justify-start items-end w-full h-full min-h-72 pb-5 overflow-hidden md:overflow-x-scroll group-hover:gap-2 gap-0 transition-all duration-300">
         <Image
           className="rotate-[-20deg] group-hover:rotate-0 group-hover:mr-0 mr-[-20px] transition-all duration-300 rounded-2xl border-4 border-background shadow-2xl"
           src="/website1.png"

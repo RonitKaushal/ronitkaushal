@@ -1,9 +1,5 @@
 "use client";
-import Image from "next/image";
-import { ModeToggle } from "@/components/darkMode";
-import { useTheme } from "next-themes";
 import { Button } from "../ui/button";
-import { Flame } from "lucide-react";
 import AtroposCard from "@/components/home/atroposCard";
 
 export default function Hero() {
@@ -17,12 +13,11 @@ export default function Hero() {
               Hello,
             </h1>
             <p className="text-2xl gochi text-primary w-full max-w-lg text-left">
-              I'm Ronit — Freelance coder, full-time bug-fixer, and occasional
-              coffee-fueled genius. I speak fluent HTML, CSS, JavaScript. <br />{" "}
-              I've survived the wild jungles of full-stack development, built
-              portfolio platforms, made deserts bloom with trees (yes, in an
-              app), and even designed logos that look cooler than my social
-              life.
+              I`&apos;`m a frontend developer skilled in React, Next.js, and UI/UX
+              design. I build fast, responsive, and user-friendly websites.
+              Passionate about clean design, solving real-world problems, and
+              creating smooth digital experiences. Powered by curiosity,
+              creativity
             </p>
           </div>
         </div>
@@ -51,7 +46,9 @@ export default function Hero() {
         </a>
 
         <a href="/Ronit Kaushal Resume.pdf" download>
-          <Button className="flex justify-center items-center text-background bg-red-500 border-0 rounded-full hover:bg-red-500 text-xl PoppinMedium p-6 transition-all duration-300 cursor-pointer">Resume</Button>
+          <Button className="flex justify-center items-center text-background bg-red-500 border-0 rounded-full hover:bg-red-500 text-xl PoppinMedium p-6 transition-all duration-300 cursor-pointer">
+            Resume
+          </Button>
         </a>
       </div>
     </div>

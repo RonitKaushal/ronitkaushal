@@ -7,14 +7,12 @@ import { useEffect, useState } from "react";
 
 import { usePathname, useRouter } from "next/navigation";
 
-import { Badge } from "../ui/badge";
 
 import { useWindowSize } from "@/hooks/use-window-size";
 
 import {
   Sheet,
   SheetContent,
-  SheetDescription,
   SheetHeader,
   SheetTitle,
   SheetTrigger,
@@ -123,15 +121,15 @@ export default function Nav() {
   const router = useRouter();
 
   const isHome = pathname === "/" || pathname === "/home";
-  const isProjects = pathname === "/projects";
+  // const isProjects = pathname === "/projects";
   return (
-    <div className="fixed top-0 z-50 flex justify-between items-center w-full h-auto px-2 sm:px-10 mt-2">
-      <div className="flex justify-center items-center w-30 h-auto">
-        <Link href="/">
+    <div className="fixed top-0 z-100 flex justify-between items-center w-full h-auto px-2 sm:px-10 mt-2">
+      <div className="flex justify-center items-center w-full md:w-30 h-auto">
+        <Link className="flex justify-center items-center w-full max-w-[150px] md:w-30 h-auto" href="/">
           <Image src={imgSrc} alt="Logo" width={400} height={400} />
         </Link>
       </div>
-      <div className="flex justify-center items-center w-auto h-auto space-x-2">
+      <div className="hidden md:flex justify-center items-center w-auto h-auto space-x-2">
         {isHome && (
           <Button
             onClick={() => router.push("/projects")}
@@ -140,7 +138,7 @@ export default function Nav() {
             Projects
           </Button>
         )}
-        {isProjects && (
+        {!isHome && (
           <Button
             onClick={() => router.push("/")}
             className="hidden sm:flex justify-center items-center text-background rounded-full hover:bg-red-500 text-xl PoppinMedium uppercase p-6 transition-all duration-300 cursor-pointer shadow-[0_10px_40px_0px_theme('colors.background.DEFAULT')]"

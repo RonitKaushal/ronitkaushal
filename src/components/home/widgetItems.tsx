@@ -1,6 +1,6 @@
 "use client";
 // inspired by tom is loading
-import React, { useRef, useState } from "react";
+import React from "react";
 import Image from "next/image";
 import { Badge, MoveUpRight } from "lucide-react";
 

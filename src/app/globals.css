@@ -21,6 +21,11 @@
   --color-chart-3: var(--chart-3);
   --color-chart-2: var(--chart-2);
   --color-chart-1: var(--chart-1);
+  --color-blue: var(--blue);
+  --color-green: var(--green);
+  --color-red: var(--red);
+  --color-brown: var(--brown);
+  --color-cream: var(--cream);
   --color-ring: var(--ring);
   --color-input: var(--input);
   --color-border: var(--border);
@@ -98,6 +103,11 @@
   --sidebar-accent-foreground: oklch(0.21 0.006 285.885);
   --sidebar-border: oklch(0.92 0.004 286.32);
   --sidebar-ring: oklch(0.705 0.015 286.067);
+  --blue: #2074f7;
+  --green: #d9ff00;
+  --red: #fb3d1c;
+  --brown: #3f0002;
+  --cream: #fce9c0;
 }
 
 .dark {
@@ -132,6 +142,13 @@
   --sidebar-accent-foreground: oklch(0.985 0 0);
   --sidebar-border: oklch(1 0 0 / 10%);
   --sidebar-ring: oklch(0.552 0.016 285.938);
+  --blue: #2074f7;
+  --green: #ccee0c;
+  --red: #fb3d1c;
+  --brown: #3f0002;
+  --cream: #fce9c0;
+
+
 }
 
 
@@ -247,19 +264,18 @@
   cursor: pointer;
 }
 
-@media only screen and (min-width: 0px) and (max-width: 500px)
-{
+@media only screen and (min-width: 0px) and (max-width: 500px) {
   .projectContainer {
-  column-count: 2;
-  column-gap: 10px;
-  width: 100%;
+    column-count: 2;
+    column-gap: 10px;
+    width: 100%;
+  }
 }
-}
-@media only screen and (min-width: 500px) and (max-width: 900px)
-{
+
+@media only screen and (min-width: 500px) and (max-width: 900px) {
   .projectContainer {
-  column-count: 3;
-  column-gap: 10px;
-  width: 100%;
-}
+    column-count: 3;
+    column-gap: 10px;
+    width: 100%;
+  }
 }
