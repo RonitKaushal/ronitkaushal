@@ -37,7 +37,7 @@ const AtroposCard = () => {
         /> */}
         <div className="relative flex justify-center items-center flex-col w-auto h-auto p-5 bg-white">
           <Image
-            src="/Ronit anime.png"
+            src="/Ronit_Anime.png"
             alt=""
             className="bg-background"
             width={250}
