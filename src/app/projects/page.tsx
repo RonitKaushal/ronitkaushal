@@ -20,7 +20,7 @@ export default function ProjectsPage() {
                   </p>
                 </div>
                 <div className="group relative flex justify-center items-center h-full w-full mt-12">
-                  <Image className="absolute z-50 flex justify-center items-center scale-75 lg:scale-100 transition-all duration-300" src="/cetegoris/dhrusubi.png" alt="Prot" height={300} width={300} />
+                  <Image className="absolute z-50 flex justify-center items-center scale-75 lg:scale-100 transition-all duration-300" src="/cetegoris/dhrosubi.png" alt="Prot" height={300} width={300} />
                   <Image className="absolute flex justify-center items-center translate-x-[10rem] scale-75 lg:scale-100  translate-y-[3rem] lg:translate-y-[8rem] transition-all duration-300" src="/cetegoris/arctic.png" alt="Prot" height={300} width={300} />
                   <Image className="absolute flex justify-center items-center translate-x-[-10rem] scale-60 lg:scale-100 translate-y-[1rem] lg:translate-y-[8rem]  transition-all duration-300" src="/cetegoris/periodic.png" alt="Prot" height={300} width={300} />
                   <Image className="absolute flex justify-center items-center translate-x-[0rem] scale-75 lg:scale-100 translate-y-[0rem] lg:translate-y-[0rem] group-hover:translate-x-[-10rem] group-hover:translate-y-[-8rem] transition-all duration-300" src="/cetegoris/roman.png" alt="Prot" height={300} width={300} />
@@ -43,11 +43,11 @@ export default function ProjectsPage() {
               </div>
 
               <div className="group relative flex justify-center items-center h-[240px] mt-4 ml-6 w-auto">
-                <Image className="absolute border-3 border-cream top-[60px] scale-75 lg:scale-100 group-hover:top-[0px] w-[180px] h-[180px] object-cover rounded-xl shadow-2xl rotate-[-15deg] z-30 translate-x-[-200px] group-hover:translate-x-[-400px] transition-all duration-300 group-hover:rotate-0 group-hover:scale-105" src="/cetegoris/metapc.png" alt="img1" width={180} height={180} />
-                <Image className="absolute border-3 border-cream top-[20px] scale-75 lg:scale-100 group-hover:top-[0px] w-[180px] h-[180px] object-cover rounded-xl shadow-2xl rotate-[-7deg] z-40 translate-x-[-100px] group-hover:translate-x-[-200px] transition-all duration-300 group-hover:rotate-0 group-hover:scale-105" src="/cetegoris/metaforest.png" alt="img2" width={180} height={180} />
-                <Image className="absolute border-3 border-cream top-0 w-[180px] scale-75 lg:scale-100 h-[180px] z-50 object-cover rounded-xl shadow-2xl rotate-[0deg] transition-all duration-300 group-hover:scale-105" src="/cetegoris/IBT ArtWork.png" alt="img3" width={180} height={180} />
-                <Image className="absolute border-3 border-cream top-[20px] scale-75 lg:scale-100 group-hover:top-[0px] w-[180px] h-[180px] object-cover rounded-xl shadow-2xl rotate-[7deg] z-40 transition-all translate-x-[100px] group-hover:translate-x-[200px] duration-300 group-hover:rotate-0 group-hover:scale-105" src="/cetegoris/COD Poster.png" alt="img4" width={180} height={180} />
-                <Image className="absolute border-3 border-cream top-[60px] scale-75 lg:scale-100 group-hover:top-[0px] w-[180px] h-[180px] object-cover rounded-xl shadow-2xl rotate-[15deg] z-30 translate-x-[200px] group-hover:translate-x-[400px] transition-all duration-300 group-hover:rotate-0 group-hover:scale-105" src="/cetegoris/Valorant CSGC.png" alt="img5" width={180} height={180} />
+                <Image className="absolute border-3 border-cream top-[60px] scale-75 lg:scale-100 group-hover:top-[0px] w-[180px] h-[180px] object-cover rounded-xl shadow-2xl rotate-[-15deg] z-30 translate-x-[-200px] group-hover:translate-x-[-400px] transition-all duration-300 group-hover:rotate-0 group-hover:scale-105" src="/cetegoris/graphic_design/metapc.png" alt="img1" width={180} height={180} />
+                <Image className="absolute border-3 border-cream top-[20px] scale-75 lg:scale-100 group-hover:top-[0px] w-[180px] h-[180px] object-cover rounded-xl shadow-2xl rotate-[-7deg] z-40 translate-x-[-100px] group-hover:translate-x-[-200px] transition-all duration-300 group-hover:rotate-0 group-hover:scale-105" src="/cetegoris/graphic_design/metaforest.png" alt="img2" width={180} height={180} />
+                <Image className="absolute border-3 border-cream top-0 w-[180px] scale-75 lg:scale-100 h-[180px] z-50 object-cover rounded-xl shadow-2xl rotate-[0deg] transition-all duration-300 group-hover:scale-105" src="/cetegoris/graphic_design/IBT_ArtWork.png" alt="img3" width={180} height={180} />
+                <Image className="absolute border-3 border-cream top-[20px] scale-75 lg:scale-100 group-hover:top-[0px] w-[180px] h-[180px] object-cover rounded-xl shadow-2xl rotate-[7deg] z-40 transition-all translate-x-[100px] group-hover:translate-x-[200px] duration-300 group-hover:rotate-0 group-hover:scale-105" src="/cetegoris/graphic_design/COD_Poster.png" alt="img4" width={180} height={180} />
+                <Image className="absolute border-3 border-cream top-[60px] scale-75 lg:scale-100 group-hover:top-[0px] w-[180px] h-[180px] object-cover rounded-xl shadow-2xl rotate-[15deg] z-30 translate-x-[200px] group-hover:translate-x-[400px] transition-all duration-300 group-hover:rotate-0 group-hover:scale-105" src="/cetegoris/graphic_design/Valorant_CSGC.png" alt="img5" width={180} height={180} />
               </div>
             </Link>
 
@@ -63,9 +63,9 @@ export default function ProjectsPage() {
                     </p>
                   </div>
                   <div className="relative flex justify-center items-center h-[240px] mt-12 ml-6 w-auto">
-                    <Image className="absolute object-cover shadow-2xl group-hover:translate-y-[-30px] group-hover:scale-80 transition-all duration-300" src="/cetegoris/folksvalley.png" alt="img1" width={150} height={150} />
-                    <Image className="absolute object-cover shadow-2xl translate-x-[160px] group-hover:translate-x-[130px] group-hover:translate-y-[-30px] group-hover:scale-80 transition-all duration-300" src="/cetegoris/folksvalley.png" alt="img2" width={150} height={150} />
-                    <Image className="absolute object-cover shadow-2xl translate-x-[-160px] group-hover:translate-x-[-130px] group-hover:translate-y-[-30px] group-hover:scale-80 transition-all duration-300" src="/cetegoris/folksvalley.png" alt="img3" width={150} height={150} />
+                    <Image className="absolute object-cover shadow-2xl group-hover:translate-y-[-30px] group-hover:scale-80 transition-all duration-300" src="/cetegoris/figma/folksvalley.png" alt="img1" width={150} height={150} />
+                    <Image className="absolute object-cover shadow-2xl translate-x-[160px] group-hover:translate-x-[130px] group-hover:translate-y-[-30px] group-hover:scale-80 transition-all duration-300" src="/cetegoris/figma/folksvalley.png" alt="img2" width={150} height={150} />
+                    <Image className="absolute object-cover shadow-2xl translate-x-[-160px] group-hover:translate-x-[-130px] group-hover:translate-y-[-30px] group-hover:scale-80 transition-all duration-300" src="/cetegoris/figma/folksvalley.png" alt="img3" width={150} height={150} />
                   </div>
                 </div>
               </Link>
@@ -81,7 +81,7 @@ export default function ProjectsPage() {
                     </p>
                   </div>
                   <div className="relative flex justify-center items-center h-[240px] mt-2 ml-6 w-auto">
-                    <Image className="absolute object-cover scale-150 translate-y-[-2rem] lg:translate-y-0 lg:scale-100 group-hover:scale-90 transition-all duration-300" src="/cetegoris/funbox.png" alt="img1" width={300} height={300} />
+                    <Image className="absolute object-cover scale-150 translate-y-[-2rem] lg:translate-y-0 lg:scale-100 group-hover:scale-90 transition-all duration-300" src="/cetegoris/fun/funbox.png" alt="img1" width={300} height={300} />
                   </div>
                 </div>
               </Link>

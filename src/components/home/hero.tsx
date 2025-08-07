@@ -13,7 +13,7 @@ export default function Hero() {
               Hello,
             </h1>
             <p className="text-2xl gochi text-primary w-full max-w-lg text-left">
-              I`&apos;`m a frontend developer skilled in React, Next.js, and UI/UX
+              I&apos;m a frontend developer skilled in React, Next.js, and UI/UX
               design. I build fast, responsive, and user-friendly websites.
               Passionate about clean design, solving real-world problems, and
               creating smooth digital experiences. Powered by curiosity,

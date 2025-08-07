@@ -29,7 +29,7 @@ function Map() {
         <div className="group relative border-8 dark:border-primary/10 border-background shadow-2xl w-full h-full overflow-hidden rounded-4xl">
           <Image
             className="group-hover:scale-100 scale-120 transition-all duration-300"
-            src="/GTA Gandhinagar.png"
+            src="/GTA_Gandhinagar.png"
             alt="figma tools bar"
             width={500}
             height={500}
