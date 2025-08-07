@@ -3,6 +3,7 @@ import "./globals.css";
 import { ThemeProvider } from "@/components/theme-provider";
 import Nav from "@/components/home/nav";
 import Navigation from "@/components/home/navigation";
+import { Analytics } from "@vercel/analytics/next";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -71,7 +72,6 @@ export const metadata = {
   metadataBase: new URL("https://ronitkaushal.vercel.app"),
 };
 
-
 export default function RootLayout({
   children,
 }: Readonly<{
@@ -82,6 +82,7 @@ export default function RootLayout({
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
+        <Analytics />
         <ThemeProvider
           attribute="class"
           defaultTheme="light"
